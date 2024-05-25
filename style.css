@@ -352,6 +352,10 @@ section{
     color: white;
     font-weight: bolder !important;
   }
+
+  .contact .container2{
+    margin-bottom: 100px !important;
+  }
 }
 
 @keyframes floating {
