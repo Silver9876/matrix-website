@@ -264,7 +264,7 @@ header{
 .quote{
   font-family: myFirstFont;
   font-weight: bold !important;
-  font-size: 70px !important;
+  font-size: 60px !important;
   color: red;
   text-align: center;
   margin-top: 150px;
@@ -329,10 +329,6 @@ section{
 
   header{
     display: none;
-  }
-
-  .dates{
-    line-height: 35px;
   }
 
   .register button{
