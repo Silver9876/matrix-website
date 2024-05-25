@@ -1329,9 +1329,8 @@ footer h1{
   font-family: myFirstFont;
   font-weight: bold !important;
   text-align: center;
-  color: #fff;
   padding-top: 20px;
-
+    animation: pulsate2 2.5s infinite alternate;
   /* background-color:orange; */ 
 }
 .footerContainer{
@@ -1363,9 +1362,7 @@ footer h1{
   transition: 0.5s;
 
 }
-.footerNav ul li a:hover{
-  /* opacity: 1; */
-}
+
 .footerBottom{
   /* background-color: #000; */
   /* padding: 20px; */
@@ -1380,6 +1377,21 @@ footer h1{
   letter-spacing: 1px;
   font-weight: 400;
   margin: 0px 5px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+.info p{
+  font-family: myFirstFont;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 @media (max-width: 720px){
   .footerNav ul{
