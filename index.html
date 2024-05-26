@@ -604,6 +604,8 @@ const ypos = Array(cols).fill(0);
 ctx.fillStyle = '#000';
 ctx.fillRect(0, 0, w, h);
 
+// let count=0;
+
 function matrix () {
   ctx.fillStyle = '#0001';
   ctx.fillRect(0, 0, w, h);
@@ -613,6 +615,13 @@ function matrix () {
   
   ypos.forEach((y, ind) => {
     const text = String.fromCharCode(Math.random() * 128);
+    // const strings="Avinya 2k24";
+    // const text = strings[count%11]
+    // count++;
+    // if(text==='4')
+    // {
+    //   count=0;
+    // }
     const x = ind * 20;
     ctx.fillText(text, x, y);
     if (y > 100 + Math.random() * 10000) ypos[ind] = 0;
