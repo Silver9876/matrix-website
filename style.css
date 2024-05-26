@@ -502,6 +502,33 @@ animation: pulsate2 2.5s infinite alternate;
   }
 }
 
+@media (min-width: 1300px) {
+  .timeline{
+    flex-direction: row !important;
+  }
+
+  .timeline .left{
+    width: 70%;
+  }
+  
+  .timeline .right{
+    padding: 50px;
+    width: 25% !important;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timeline .right p{
+    font-family: myFirstFont;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+  }
+  
+}
+
 @media (min-width: 720px) {
 
   .logo img{
@@ -528,6 +555,7 @@ animation: pulsate2 2.5s infinite alternate;
   .image{
     display: flex;
     justify-content: center;
+    margin-top: -150px !important;
     width: 40%;
     height: auto;
   }
@@ -581,6 +609,23 @@ animation: pulsate2 2.5s infinite alternate;
     margin-top: 20px;
     margin-bottom: 20px;
   
+  }
+
+  .timeline .right{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .timeline .right p{
+    font-family: myFirstFont;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder !important;
   }
   
   
@@ -676,29 +721,7 @@ animation: pulsate2 2.5s infinite alternate;
   
   }
 
-  .timeline{
-    flex-direction: row !important;
-  }
-
-  .timeline .left{
-    width: 70%;
-  }
   
-  .timeline .right{
-    padding: 50px;
-    width: 30%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .timeline .right p{
-    font-family: myFirstFont;
-    font-size: 60px;
-    color: white;
-    font-weight: bold;
-  }
 
 
   
