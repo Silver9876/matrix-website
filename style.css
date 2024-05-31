@@ -225,7 +225,7 @@ header{
   height: auto;
 }
 .logo img{
-  width: 100px;
+  width: 80px;
   top: 15px;
   left: 15px;
   position: absolute;
@@ -267,7 +267,7 @@ header{
   font-size: 60px !important;
   color: red;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 70px;
   margin-bottom: 20px;
 
 }
@@ -331,6 +331,15 @@ section{
     display: none;
   }
 
+  .logo img{
+    width: 60px !important;
+  }
+
+
+  .avinya{
+    font-size: 30px !important;
+  }
+
   .cse{
     font-size: 35px;
   }
@@ -338,6 +347,7 @@ section{
   .quote{
     font-size: 30px;
   }
+  
 
   .dates{
     font-size: 30px !important;
@@ -385,7 +395,7 @@ section{
 
 
 .image{
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
   background-color: transparent;
@@ -474,7 +484,7 @@ animation: pulsate2 2.5s infinite alternate;
 
 .about .text {
   animation: greenbox 2.5s infinite alternate;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   padding: 20px;
   text-align: center;
