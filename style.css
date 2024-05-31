@@ -331,6 +331,29 @@ section{
     display: none;
   }
 
+  .avinya{
+    font-size: 60px;
+  }
+
+  .cse{
+    font-size: 50px;
+  }
+
+  .quote{
+    font-size: 40px;
+  }
+
+  .dates{
+    font-size: 45px !important;
+  }
+
+  .about .text p{
+    font-size: 18px;
+  }
+
+  .timeline .right p{
+    font-size: 40px !important;
+  }
   .register button{
     top: 45px ;
   right:10px;
@@ -1033,7 +1056,7 @@ time {
   margin-top: 20px;
   margin-bottom: 30px;
   text-align: center;
-  font-size: 40PX;
+  font-size: 30PX;
   font-family: myFirstFont;
   /* background: green; */
   color: black;
