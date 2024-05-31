@@ -331,20 +331,16 @@ section{
     display: none;
   }
 
-  .avinya{
-    font-size: 60px;
-  }
-
   .cse{
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .quote{
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .dates{
-    font-size: 45px !important;
+    font-size: 30px !important;
   }
 
   .about .text p{
@@ -429,7 +425,7 @@ section{
   font-style: normal;
   /* font-family: "Kaushan Script", cursive;
   font-style: normal;*/
-  font-size: 70px;
+  font-size: 50px;
   /* font-weight: 600; */
   color: black;
 animation: pulsate2 2.5s infinite alternate; 
@@ -1202,16 +1198,18 @@ time {
   color: rgb(0, 136, 255);
 }
 
-.card2, .card6{
+.parent, .card2, .card6{
   filter: hue-rotate(150deg);
 }
 
 .card3, .card7{
-  filter: hue-rotate(300deg);
+  /* filter: hue-rotate(300deg); */
+  filter: hue-rotate(150deg);
 }
 
 .card4, .card8{
-  filter: hue-rotate(90deg);
+  /* filter: hue-rotate(90deg); */
+  filter: hue-rotate(150deg);
 }
 
 
